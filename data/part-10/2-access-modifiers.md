@@ -57,14 +57,14 @@ class NotebookPro(Notebook):
 ```
 
 <sample-output>
-    
+
 AttributeError: 'NotebookPro' object has no attribute '_NotebookPro__notes'
 
 </sample-output>
 
 ## Protected traits
 
-Many object oriented programming languages have a feature, usually a special keyword, for _protecting_ traits. This means that a trait should be hidden from the clients of the class, but kept accessible to its subclasses. Python in general abhors keywords, so no such feature is directly available in Python. Instead, there is a _convention_ of marking protected traits in a certain way. 
+Many object oriented programming languages have a feature, usually a special keyword, for _protecting_ traits. This means that a trait should be hidden from the clients of the class, but kept accessible to its subclasses. Python in general abhors keywords, so no such feature is directly available in Python. Instead, there is a _convention_ of marking protected traits in a certain way.
 
 Remember, a trait can be hidden by prefixing its name with two underscores:
 
@@ -196,8 +196,8 @@ revengers.print_group()
 
 Revengers, Emerald City
 Members:
-SuperPerson, superskills: Superspeed, superstrength
-Invisible Inca, superskills: Invisibility
+SuperPerson, superpowers: Superspeed, superstrength
+Invisible Inca, superpowers: Invisibility
 
 </sample-output>
 
